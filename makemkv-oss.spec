@@ -8,6 +8,9 @@ URL:            https://www.makemkv.com/
 Source0:        https://www.makemkv.com/download/makemkv-oss-%{version}.tar.gz
 Source1:        makemkv.metainfo.xml
 
+# Allow builds with newer versions of FFmpeg. Currently needed on Rawhide.
+Patch0:         ffmpeg9.patch
+
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
 BuildRequires:  libappstream-glib
@@ -81,7 +84,7 @@ Requires:       libmmbd%{?_isa} = %{version}-%{release}
 Library and header files for applications using libmmbd.
 
 %prep
-%autosetup
+%autosetup -p0
 
 %build
 %configure
