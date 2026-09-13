@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2026 Bradan Fleming <bradan@cogspin.com> -->
+<component type="desktop">
+  <id>makemkv.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://pastebin.com/raw/PmWJ4CxA AND GPL-2.0+</project_license>
+  <name>MakeMKV</name>
+  <summary>A decryption and transcoding tool for DVD and Blu-ray discs</summary>
+  <description>
+    <p>
+      MakeMKV is a toolkit for decrypting and transcoding DVD, HD DVD, and
+      Blu-ray discs to MKV files. It can integrate with libbluray to allow video
+      players (VLC, MPV) to play discs with bus encryption (e.g., Ultra HD
+      Blu-ray).
+    </p>
+  </description>
+  <url type="homepage">https://makemkv.com/</url>
+  <developer id="com.makemkv">
+    <name>GuinpinSoft inc</name>
+  </developer>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://makemkv.com/images/sshot-t3-web.png</image>
+    </screenshot>
+  </screenshots>
+  <update_contact>bradan_AT_cogspin.com</update_contact>
+</component>
