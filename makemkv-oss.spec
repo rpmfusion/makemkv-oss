@@ -1,5 +1,5 @@
 Name:           makemkv-oss
-Version:        1.18.4
+Version:        2.0.0
 Release:        %autorelease
 Summary:        The open-source components of MakeMKV
 
